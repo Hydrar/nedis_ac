@@ -8,10 +8,10 @@ uint8_t fan_speed = 0x90;
 uint8_t swing = 0;
 uint8_t target_temp = 0;
 
-class ElectriqAC : public Component, public UARTDevice, public Climate
+class NedisAC : public Component, public UARTDevice, public Climate
 {
 public:
-  ElectriqAC(UARTComponent *parent) : UARTDevice(parent) {}
+  NedisAC(UARTComponent *parent) : UARTDevice(parent) {}
 
   void setup() override
   {
