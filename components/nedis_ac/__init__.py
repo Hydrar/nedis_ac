@@ -3,7 +3,7 @@ import esphome.config_validation as cv
 from esphome.const import CONF_ID
 
 nedis_ac_ns = cg.esphome_ns.namespace("Nedis_AC")
-NedisAC = empty_component_ns.class_("NedisAC", cg.Component)
+NedisAC = nedis_ac_ns.class_("NedisAC", cg.Component)
 
 CONFIG_SCHEMA = cv.Schema(
     {
