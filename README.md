@@ -1,3 +1,5 @@
+# Note: This is a fork of dslatford/electriq_ac that has been adapted to talk the nedis protocol which shares a lot of similaries
+
 # ESPhome component for Electriq 12000 BTU WiFi Smart AC
 
 This custom component for ESPhome replaces the Tuya firmware within the ESP8266 wifi module found inside [Electriq](https://www.electriq.co.uk) branded air conditioning units for integration into Home Assistant. Developed on the 12000 Smart model, others may also be supported.
