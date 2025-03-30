@@ -1,6 +1,7 @@
 #include "esphome.h"
 #include "esphome/core/helpers.h"
 
+namespace nedis_ac {
 static const char *const TAG = "electriq_ac";
 
 uint8_t ac_mode = 0x03;
@@ -322,3 +323,5 @@ public:
     return traits;
   }
 };
+
+} // namespace nedis_ac
